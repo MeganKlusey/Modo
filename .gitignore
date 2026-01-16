@@ -1,0 +1,13 @@
+# Ignore user-uploaded files
+uploads/
+
+# Ignore WordPress temporary/cache/upgrade files
+cache/
+upgrade/
+backup-*/
+
+# Ignore OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
