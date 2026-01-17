@@ -5,6 +5,7 @@ uploads/
 cache/
 upgrade/
 backup-*/
+dist/
 
 # Ignore OS and editor files
 .DS_Store
