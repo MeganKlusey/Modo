@@ -4,7 +4,6 @@ import liveReload from "vite-plugin-live-reload";
 export default defineConfig({
   server: {
     cors: true,
-    port: 5173,
   },
   build: {
     manifest: true,
