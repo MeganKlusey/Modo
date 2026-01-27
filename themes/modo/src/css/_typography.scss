@@ -15,15 +15,15 @@ h1 {
   letter-spacing: -0.04em;
   line-height: 0.8;
 
-  @media only screen and (orientation: landscape) and (max-width: calc(var(--md) - 1px)) {
+  @media only screen and (orientation: landscape) and (max-width: 767px) {
     font-size: 6rem;
   }
 
-  @media screen and (min-width: var(--md)) {
+  @media screen and (min-width: 768px) {
     font-size: 8rem;
   }
 
-  @media screen and (min-width: var(--lg)) {
+  @media screen and (min-width: 1024px) {
     font-size: clamp(8rem, 12svw, 18rem);
   }
 }
@@ -34,15 +34,15 @@ h2 {
   letter-spacing: 0em;
   line-height: 1;
 
-  @media only screen and (orientation: landscape) and (max-width: calc(var(--md) - 1px)) {
+  @media only screen and (orientation: landscape) and (max-width: 767px) {
     font-size: 3.5rem;
   }
 
-  @media screen and (min-width: var(--md)) {
+  @media screen and (min-width: 768px) {
     font-size: 3.5rem;
   }
 
-  @media screen and (min-width: var(--lg)) {
+  @media screen and (min-width: 1024px) {
     font-size: 4.5rem;
   }
 }
@@ -53,15 +53,15 @@ h3 {
   letter-spacing: 0em;
   line-height: 1;
 
-  @media only screen and (orientation: landscape) and (max-width: calc(var(--md) - 1px)) {
+  @media only screen and (orientation: landscape) and (max-width: 767px) {
     font-size: 3rem;
   }
 
-  @media screen and (min-width: var(--md)) {
+  @media screen and (min-width: 768px) {
     font-size: 3rem;
   }
 
-  @media screen and (min-width: var(--lg)) {
+  @media screen and (min-width: 1024px) {
     font-size: 3.5rem;
   }
 }
@@ -72,15 +72,15 @@ h4 {
   letter-spacing: 0em;
   line-height: 1.1;
 
-  @media only screen and (orientation: landscape) and (max-width: calc(var(--md) - 1px)) {
+  @media only screen and (orientation: landscape) and (max-width: 767px) {
     font-size: 2.75rem;
   }
 
-  @media screen and (min-width: var(--md)) {
+  @media screen and (min-width: 768px) {
     font-size: 2.75rem;
   }
 
-  @media screen and (min-width: var(--lg)) {
+  @media screen and (min-width: 1024px) {
     font-size: 3rem;
   }
 }
@@ -91,15 +91,15 @@ h5 {
   letter-spacing: 0em;
   line-height: 1.15;
 
-  @media only screen and (orientation: landscape) and (max-width: calc(var(--md) - 1px)) {
+  @media only screen and (orientation: landscape) and (max-width: 767px) {
     font-size: 2.5rem;
   }
 
-  @media screen and (min-width: var(--md)) {
+  @media screen and (min-width: 768px) {
     font-size: 2.5rem;
   }
 
-  @media screen and (min-width: var(--lg)) {
+  @media screen and (min-width: 1024px) {
     font-size: 2.75rem;
   }
 }
@@ -110,15 +110,15 @@ h6 {
   letter-spacing: 0em;
   line-height: 1.2;
 
-  @media only screen and (orientation: landscape) and (max-width: calc(var(--md) - 1px)) {
+  @media only screen and (orientation: landscape) and (max-width: 767px) {
     font-size: 2.25rem;
   }
 
-  @media screen and (min-width: var(--md)) {
+  @media screen and (min-width: 768px) {
     font-size: 2.25rem;
   }
 
-  @media screen and (min-width: var(--lg)) {
+  @media screen and (min-width: 1024px) {
     font-size: 2.5rem;
   }
 }
@@ -158,7 +158,7 @@ h6 {
   letter-spacing: 0.04em;
   line-height: 1.33;
 
-  @media screen and (min-width: var(--lg)) {
+  @media screen and (min-width: 1024px) {
     font-size: var(--xxlarge);
   }
 }
@@ -174,15 +174,15 @@ h6 {
   letter-spacing: -0.04em;
   line-height: 1.2;
 
-  @media only screen and (orientation: landscape) and (max-width: calc(var(--md) - 1px)) {
+  @media only screen and (orientation: landscape) and (max-width: 767px) {
     font-size: var(--xxxlarge);
   }
 
-  @media screen and (min-width: var(--md)) {
+  @media screen and (min-width: 768px) {
     font-size: var(--huge);
   }
 
-  @media screen and (min-width: var(--lg)) {
+  @media screen and (min-width: 1024px) {
     font-size: 2.5rem;
   }
 }
@@ -192,11 +192,11 @@ h6 {
   letter-spacing: -0.04em;
   line-height: 1.08;
 
-  @media screen and (min-width: var(--md)) {
+  @media screen and (min-width: 768px) {
     font-size: 2.5rem;
   }
 
-  @media screen and (min-width: var(--lg)) {
+  @media screen and (min-width: 1024px) {
     font-size: 3rem;
   }
 }

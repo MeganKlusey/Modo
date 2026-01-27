@@ -52,7 +52,7 @@
   --p-large: 4rem;
   --p-xlarge: 10rem;
 
-  @media screen and (min-width: --var(--lg)) {
+  @media screen and (min-width: 1024px) {
     // Padding
     --p-small: 4rem;
     --p-medium: 5rem;
