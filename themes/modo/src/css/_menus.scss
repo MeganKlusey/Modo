@@ -1,19 +1,25 @@
-.menu-primary-menu-container {
+.menu__container {
   position: absolute;
   z-index: 1;
   width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: var(--xlarge) var(--xxlarge);
+  text-transform: uppercase;
+  font-size: var(--textxs);
 
   .menu {
     margin: 0;
     padding: 0;
-    list-style-type: none;
     display: flex;
-    justify-content: center;
+    list-style-type: none;
+    gap: var(--xxlarge);
+  }
 
-    li {
-      a {
-        text-decoration: none;
-      }
-    }
+  a {
+    text-decoration: none;
+    line-height: 1.4;
+    display: block;
   }
 }
