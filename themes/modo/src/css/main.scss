@@ -4,5 +4,6 @@
 @use "base";
 @use "typography";
 @use "buttons";
-@use "menus";
-@use "home/hero.scss";
+@use "shared/header";
+@use "shared/footer";
+@use "home/hero";
