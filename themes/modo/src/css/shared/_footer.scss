@@ -6,10 +6,21 @@ footer {
 
     .case-studies {
       display: flex;
+      justify-content: space-between;
       gap: var(--xxhuge);
+      max-width: 80rem;
+      width: 100%;
+      margin: 0 auto;
 
       &__title {
         text-transform: uppercase;
+      }
+
+      &--right {
+        display: flex;
+        flex-direction: column;
+        gap: var(--xhuge);
+        max-width: 46rem;
       }
 
       &__text {
