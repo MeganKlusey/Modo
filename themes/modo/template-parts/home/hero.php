@@ -15,7 +15,7 @@
 				?>
 				<li>
 					<a href="<?= $offsiteCTA["url"] ?>" class="text-xs"><?= $offsiteCTA["label"]; ?>
-						<?php get_template_part('src/images/icons/arrow'); ?>
+						<?php get_template_part('src/inc/icons/arrow'); ?>
 					</a>
 				</li>
 				<?php } ?>
