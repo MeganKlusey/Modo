@@ -21,9 +21,7 @@ footer {
         flex-direction: column;
         gap: var(--xhuge);
         max-width: 46rem;
-      }
-
-      &__text {
+        width: auto;
       }
 
       &__link {
